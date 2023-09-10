@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disney+ Hotstar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Instrument+Serif&family=REM:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar"> 
+        <img src="./IMAGES/logo.png" class="hotstar-logo" alt="Logo">
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">Home</a></li>  
+            <li class="nav-items"><a href="#">TV</a></li>  
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">Premium</a></li>
+        </ul>
+        <div class="right-container">
+            <input type="text" placeholder="Search" class="nav-search">
+            <button class="btn">SUBSCRIBE</button>
+            <a href="#" class="login">LOGIN</a>
+        </div>
+    </nav>
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slider-content">
+                    <img src="https://img1.hotstarext.com/image/upload/f_auto,h_148/sources/r1/cms/prod/3134/1383134-t-aeff48613307" alt="" class="title-img">
+                    <p class="movie-desc">The mother of all wars, the epitome of all rivalries, the cauldron of emotions, insecurities, jealousies, and power play - Mahabharat..!!</p>
+                    <h4 class="movie-desc">Mythology | Period | Drama </h4>
+                    <button class="watch"><i class="fa-solid fa-play"></i><span>Watch Now</span></button>
+                    <button class="watchlist-btn"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <img src="https://img1.hotstarext.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/3132/1383132-i-011cefc50da9" alt="" class="slider-img">
+            </div> -->
+        </div>
+    </div>
+        <div class="video-card-container">
+            <div class="video-card">
+                <img src="IMAGES/disney.PNG" alt="Disney Logo" class="video-card-image">
+                <video src="VIDEOS/disney.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="IMAGES/pixar.PNG" alt="Pixar Logo" class="video-card-image">
+                <video src="VIDEOS/pixar.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="IMAGES/marvel.PNG" alt="Marvel Logo" class="video-card-image">
+                <video src="VIDEOS/marvel.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="IMAGES/star-wars.PNG" alt="Star Wars Logo" class="video-card-image">
+                <video src="VIDEOS/star-war.mp4" muted loop class="card-video"></video>
+            </div>
+            <div class="video-card">
+                <img src="IMAGES/geographic.PNG" alt="National Geographic Logo" class="video-card-image">
+                <video src="VIDEOS/geographic.mp4" muted loop class="card-video"></video>
+            </div>
+        </div>    
+        <h1 class="title">Recommended For You</h1>
+        <div class="movies-list">
+            <button class="pre-btn" title="btn">
+                <img src="./IMAGES/pre.png" alt="Previous Button">
+            </button>
+            <button class="nxt-btn" title="btn">
+                <img src="./IMAGES/nxt.png" alt="Next Button">
+            </button>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./IMAGES/poster 1.png" alt="LOKI" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Loki</h2>
+                        <h6 classs="desc">After stealing the Tesseract Loki lands before the TVA.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 2.png" alt="MULAN" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Mulan</h2>
+                        <h6 classs="desc">A young Chinese maiden disguises herself as a male warrior in order to save her father.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 3.png" alt="THE FALCON AND THE WINTER SOLDIER" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">The Falcon And The Winter Soldier</h2>
+                        <h6 classs="desc">Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience. </h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 4.png" alt="AVENGERS ENDGAME" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers Endgame</h2>
+                        <h6 classs="desc">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 5.png" alt="THOR RAGNAROK" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Thor Ragnarok</h2>
+                        <h6 classs="desc">Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 6.png" alt="THE AVENGERS" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">The Avengers</h2>
+                        <h6 classs="desc">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 7.png" alt="PIRATES OF THE CARIBBEAN" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Pirates Of The Caribbean</h2>
+                        <h6 classs="desc">Captain Jack Sparrow is pursued by old rival Captain Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle. They're determined to kill every pirate at sea...notably Jack.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 8.png" alt="SOUL" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Soul</h2>
+                        <h6 classs="desc">After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 9.png" alt="RAYA AND THE LAST DRAGON" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Raya And The Last Dragon</h2>
+                        <h6 classs="desc">In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 10.png" alt="LUCA" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Luca</h2>
+                        <h6 classs="desc">On the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 11.png" alt="FORD VS FERRARI" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Ford Vs ferrari</h2>
+                        <h6 classs="desc">American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 12.png" alt="X-MEN DARK PHEONIX" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">X-MEN Dark Pheonix</h2>
+                        <h6 classs="desc">Jean Grey begins to develop incredible powers that corrupt and turn her into a Dark Phoenix, causing the X-Men to decide if her life is worth more than all of humanity.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 class="title">Popular</h1>
+        <div class="movies-list">
+            <button class="pre-btn" title="btn">
+                <img src="./IMAGES/pre.png" alt="Previous Button">
+            </button>
+            <button class="nxt-btn" title="btn">
+                <img src="./IMAGES/nxt.png" alt="Next Button">
+            </button>
+            <div class="card-container">
+                <div class="card">
+                    <img src="./IMAGES/poster 1.png" alt="LOKI" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Loki</h2>
+                        <h6 classs="desc">After stealing the Tesseract Loki lands before the TVA.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 2.png" alt="MULAN" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Mulan</h2>
+                        <h6 classs="desc">A young Chinese maiden disguises herself as a male warrior in order to save her father.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 3.png" alt="THE FALCON AND THE WINTER SOLDIER" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">The Falcon And The Winter Soldier</h2>
+                        <h6 classs="desc">Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience. </h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 4.png" alt="AVENGERS ENDGAME" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Avengers Endgame</h2>
+                        <h6 classs="desc">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 5.png" alt="THOR RAGNAROK" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Thor Ragnarok</h2>
+                        <h6 classs="desc">Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 6.png" alt="THE AVENGERS" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">The Avengers</h2>
+                        <h6 classs="desc">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 7.png" alt="PIRATES OF THE CARIBBEAN" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Pirates Of The Caribbean</h2>
+                        <h6 classs="desc">Captain Jack Sparrow is pursued by old rival Captain Salazar and a crew of deadly ghosts who have escaped from the Devil's Triangle. They're determined to kill every pirate at sea...notably Jack.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 8.png" alt="SOUL" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Soul</h2>
+                        <h6 classs="desc">After landing the gig of a lifetime, a New York jazz pianist suddenly finds himself trapped in a strange land between Earth and the afterlife.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 9.png" alt="RAYA AND THE LAST DRAGON" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Raya And The Last Dragon</h2>
+                        <h6 classs="desc">In a realm known as Kumandra, a re-imagined Earth inhabited by an ancient civilization, a warrior named Raya is determined to find the last dragon.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 10.png" alt="LUCA" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Luca</h2>
+                        <h6 classs="desc">On the Italian Riviera, an unlikely but strong friendship grows between a human being and a sea monster disguised as a human.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 11.png" alt="FORD VS FERRARI" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">Ford Vs ferrari</h2>
+                        <h6 classs="desc">American car designer Carroll Shelby and driver Ken Miles battle corporate interference and the laws of physics to build a revolutionary race car for Ford in order to defeat Ferrari at the 24 Hours of Le Mans in 1966.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./IMAGES/poster 12.png" alt="X-MEN DARK PHEONIX" class="card-image">
+                    <div class="card-body">
+                        <h2 class="name">X-MEN Dark Pheonix</h2>
+                        <h6 classs="desc">Jean Grey begins to develop incredible powers that corrupt and turn her into a Dark Phoenix, causing the X-Men to decide if her life is worth more than all of humanity.</h6>
+                        <button class="watch-list">Add To Watch List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
